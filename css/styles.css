@@ -72,7 +72,11 @@ body{
 
 .service{
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
+}
+
+.service-gray{
+    background-color: #fafafa;
 }
 
 .service-title{
@@ -89,4 +93,5 @@ body{
     font-size: 1500%;
     text-align: center;
     margin-top: -20%;
+    margin-bottom: -20%;
 }
