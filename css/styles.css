@@ -83,3 +83,10 @@ body{
 .service p{
     color: #727272;
 }
+
+.service-icon{
+    color: #e0e0e0;
+    font-size: 1500%;
+    text-align: center;
+    margin-top: -20%;
+}
