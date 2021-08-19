@@ -2,6 +2,9 @@ body{
     font-family: 'Mulish', sans-serif;
 }
 
+/*
+* Header-Bereich
+*/
 .header{
     height: 620px;
     background-image: url("../img/header-background-edited.jpg");
@@ -69,7 +72,9 @@ body{
 
 
 
-
+/*
+* Service-Bereich
+*/
 .service{
     padding-top: 100px;
     padding-bottom: 75px;
@@ -94,4 +99,38 @@ body{
     text-align: center;
     margin-top: -20%;
     margin-bottom: -20%;
+}
+
+
+
+/*
+* Features-Bereich
+*/
+.features{
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.feature-icon{
+    width: 70px;
+    height: 67px;
+    padding-top: 3px;
+    background-color: #1c1c1c;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+}
+
+.feature-text{
+    margin-left: 80px;
+}
+.feature-text h5{
+    margin-bottom: 5px;
+    font-size: 110%;
+    color: #1c1c1c;
+}
+.feature-text p{
+    color: #727272;
 }
