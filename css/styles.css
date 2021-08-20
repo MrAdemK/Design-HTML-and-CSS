@@ -161,11 +161,12 @@ p{
 .client-quote{
     border: 2px solid #f3f3f3;
     background-color: white;
-    padding: 35px 70px 45px 75px;
+    padding: 55px 75px 65px 75px;
     border-radius: 3px;
     font-size: 150%;
     font-weight: lighter;
     font-style: italic;
+    position: relative;
 }
 
 .client-quote p{
@@ -176,4 +177,29 @@ p{
     font-style: normal;
     font-size: 60%;
     color: #7185c4;
+}
+
+.client-quote::before,
+.client-quote::after{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+
+}
+
+.client-quote::before{
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid #f3f3f3;
+}
+
+.client-quote::after{
+    left: -26px;
+    margin-top: -13px;
+    border: 13px solid transparent;
+    border-right: 13px solid white;
 }
