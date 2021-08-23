@@ -1,0 +1,32 @@
+/*
+* Features-Bereich
+*/
+.features {
+    padding-top: $langing-padding;
+    padding-bottom: $langing-padding - 25px;
+}
+
+.feature-icon {
+    width: 70px;
+    height: 67px;
+    padding-top: 3px;
+    background-color: #1c1c1c;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+    transition: all 1s;
+}
+.feature-icon:hover {
+    transform: rotate(360deg);
+}
+
+.feature-text {
+    margin-left: 80px;
+}
+.feature-text h5 {
+    margin-bottom: 5px;
+    font-size: 110%;
+    color: #1c1c1c;
+}
