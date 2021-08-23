@@ -39,6 +39,11 @@ p{
     color: white;
 }
 
+.header-navbar-links a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
 .header-brand-wrapper{
     margin-top: 50px;
     float: left;
@@ -312,7 +317,8 @@ p{
 }
 
 .team-icon .fab{
-    margin-top: 7px;
+    margin-top: 5px;
+    font-size: 100%;
 }
 
 .supported{
@@ -372,6 +378,16 @@ p{
     color: black;
 }
 
+.contact-input:hover{
+    background-color: rgb(243, 229, 229);
+}
+
+.contact-input:focus,
+input.contact-input:focus{
+    background-color: rgb(223, 217, 217);
+    border: 1px solid rgb(0, 0, 0);
+}
+
 .contact-message{
     height: 140px;
 }
@@ -384,6 +400,7 @@ input.contact-submit[type="submit"]{
 .contact-form{
     margin-bottom: 0px;
 }
+
 
 
 
