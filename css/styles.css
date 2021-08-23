@@ -34,6 +34,11 @@ p{
     text-shadow: 0px 0px 2px black;
 }
 
+.header-navbar-links a{
+    text-decoration: none;
+    color: white;
+}
+
 .header-brand-wrapper{
     margin-top: 50px;
     float: left;
@@ -70,7 +75,12 @@ p{
 .slogan-button{
     margin-top: 60px;
     color: white;
-    text-shadow: 0px 0px 2px black;    
+    text-shadow: 0px 0px 2px black;  
+}
+
+.slogan-button a{    
+    text-decoration: none;
+    color: white;
 }
 
 .slogan-button:hover{
@@ -387,6 +397,11 @@ input.contact-submit[type="submit"]{
 }
 .footer p{
     color: white;    
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
 }
 
 .footer-hr{
