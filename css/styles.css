@@ -906,10 +906,29 @@ p {
 
 .service-icon {
   color: #e0e0e0;
-  font-size: 1500%;
+  font-size: 700%;
   text-align: center;
   margin-top: -20%;
   margin-bottom: -20%;
+  display: none;
+}
+
+@media (min-width: 550px) {
+  .service-icon {
+    display: block;
+  }
+}
+
+@media (min-width: 750px) {
+  .service-icon {
+    font-size: 1000%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .service-icon {
+    font-size: 1500%;
+  }
 }
 
 /*
