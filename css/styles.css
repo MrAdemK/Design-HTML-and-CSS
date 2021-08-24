@@ -1159,7 +1159,15 @@ p {
 }
 
 .team-image {
-  max-width: 70%;
+  max-width: 25%;
+  margin-top: 25px;
+}
+
+@media (min-width: 550px) {
+  .team-image {
+    max-width: 70%;
+    margin-top: 0px;
+  }
 }
 
 .team-image-container {
@@ -1170,8 +1178,14 @@ p {
   font-size: 14px;
   text-align: center;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 0px;
+}
+
+@media (min-width: 550px) {
+  .team-name {
+    margin-top: 10px;
+  }
 }
 
 .team-name-desc {
