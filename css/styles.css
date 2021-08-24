@@ -882,7 +882,7 @@ p {
   color: white;
 }
 
-.slogan-button:hover {
+.slogan-button a:hover {
   color: white;
   text-shadow: 0px 0px 2px black;
 }
@@ -1038,8 +1038,8 @@ p {
 * Logo-Bereich
 */
 .html-logo {
-  width: 50px;
-  padding-left: 47%;
+  width: 40px;
+  padding-left: 45%;
   padding-top: 30px;
 }
 
@@ -1153,7 +1153,7 @@ p {
 }
 
 .contact-methods li .fas,
-.fab {
+.contact-methods .fab {
   font-size: 150%;
 }
 
@@ -1175,8 +1175,7 @@ p {
   transition: all 0.5s;
 }
 
-.contact-input:focus,
-input.contact-input:focus {
+.contact-input:focus {
   background-color: #dfd9d9;
   border: 1px solid black;
 }

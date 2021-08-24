@@ -22,17 +22,18 @@
 .contact-methods {
     color: white;
     list-style-type: none;
-}
-.contact-methods li {
-    width: 50%;
-    float: left;
-    font-weight: lighter;
-    height: 2.5em;
-}
 
-.contact-methods li .fas,
-.fab {
-    font-size: 150%;
+    li {
+        width: 50%;
+        float: left;
+        font-weight: lighter;
+        height: 2.5em;
+    }
+
+    li .fas,
+    .fab {
+        font-size: 150%;
+    }
 }
 
 .contact-icon {
@@ -45,17 +46,16 @@
     width: 100%;
     margin-bottom: 28px;
     color: black;
-}
 
-.contact-input:hover {
-    background-color: rgb(243, 229, 229);
-    transition: all 0.5s;
-}
+    &:hover {
+        background-color: rgb(243, 229, 229);
+        transition: all 0.5s;
+    }
 
-.contact-input:focus,
-input.contact-input:focus {
-    background-color: rgb(223, 217, 217);
-    border: 1px solid rgb(0, 0, 0);
+    &:focus {
+        background-color: rgb(223, 217, 217);
+        border: 1px solid rgb(0, 0, 0);
+    }
 }
 
 .contact-message {
