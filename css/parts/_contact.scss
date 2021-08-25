@@ -79,3 +79,11 @@ input.contact-submit[type="submit"] {
 .contact-form {
     margin-bottom: 0px;
 }
+
+.contact-label {
+    display: none;
+}
+.no-placeholder .contact-label {
+    display: block;
+}
+

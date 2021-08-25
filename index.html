@@ -342,10 +342,16 @@
                 </div>
                 <div class="six columns">
                     <form class="contact-form" action="index.html" method="GET">
-                        <input class="contact-input" type="text" placeholder="Your Name *" required />
-                        <input class="contact-input" type="text" placeholder="Your Email *" required />
-                        <textarea class="contact-input contact-message" placeholder="Your message *"
+                        <label for="contact-name" class="contact-label">Your Name *</label>
+                        <input id="contact-name" class="contact-input" type="text" placeholder="Your Name *" required />
+
+                        <label for="contact-email" class="contact-label">Your Email *</label>
+                        <input id="contact-email" class="contact-input" type="text" placeholder="Your Email *" required />
+
+                        <label for="contact-message" class="contact-label">Your message</label>
+                        <textarea id="contact-message" class="contact-input contact-message" placeholder="Your message *"
                             required="required"></textarea>
+
                         <input class="contact-submit" type="submit" value="Submit Message" />
                     </form>
                 </div>
@@ -360,6 +366,7 @@
     </div>
     <script type="text/javascript" src="./vendor/jquery/jquery-3.6.0.js"></script>
     <script type="text/javascript" src="./vendor/jpanelmenu/jquery.jpanelmenu.js"></script>
+    <script type="text/javascript" src="./vendor/modernizr/modernizr-custom.js"></script>
 
     <script type="text/javascript">
         jQuery(document).ready(function ($) {

@@ -1332,6 +1332,14 @@ input.contact-submit[type="submit"] {
   margin-bottom: 0px;
 }
 
+.contact-label {
+  display: none;
+}
+
+.no-placeholder .contact-label {
+  display: block;
+}
+
 /*
 * Footer-Bereich
 */
