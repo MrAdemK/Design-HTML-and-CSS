@@ -12,6 +12,11 @@
     color: rgb(255, 255, 255);
     float: right;
     margin-top: 50px;
+    display: none;
+
+    @media ($bp-larger-than-tablet) {
+        display: block;
+    }
 
     li {
         float: left;
@@ -78,5 +83,18 @@
     a:hover {
         color: rgb(255, 255, 255);
         text-shadow: 0px 0px 2px black;
+    }
+}
+
+#side-menu-trigger {
+    float: right;
+    color: rgb(255, 255, 255);
+    margin-top: 35px;
+    padding: 5px 25px 5px 25px;
+    font-size: 200%;
+    height: inherit;
+
+    @media ($bp-larger-than-tablet) {
+        display: none;
     }
 }

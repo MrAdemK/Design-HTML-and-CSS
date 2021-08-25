@@ -28,6 +28,15 @@
         float: left;
         font-weight: lighter;
         height: 2.5em;
+
+        @media ($bp-larger-than-phablet) {
+            width: 100%;
+            float: none;
+        }
+        @media ($bp-larger-than-desktop) {
+            width: 50%;
+            float: left;
+        }
     }
 
     li .fas,
@@ -38,7 +47,7 @@
 
 .contact-icon {
     display: inline-block;
-    width: 40px;
+    width: 33px;
     text-align: center;
 }
 
